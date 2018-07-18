@@ -4,23 +4,38 @@
 
 <head>
     <meta charset="utf-8">
+
+
 </head>
 
 <title>Login Form</title>
 
 <body>
-    <form>
-        <label>User name:</label><br>
-        <input type="text" name="username" id="user"><br>
-        <label>User password:</label><br>
-        <input type="password" name="pass" id="pass"><br>
-        <input type="button" value="Login" id="submit" onclick="validate()">
-    </form>
-    <span><b class="note">Note : </b>
-        For this demo use following username and password. <br>
-        <b class="valid">User Name : NERO<br>Password : nero_123</b></span>
+<link rel="stylesheet" href="css/style.css">
+<div class="screen">
+    <div class="loginform">
+        <form>
+            <div class="login">
+                <label>User name:</label><br>
+                <input type="text" name="username" id="user"><br>
+            </div>
 
-    <script src="script.js"></script>
+            <div class="pass">
+                <label>User password:</label><br>
+                <input type="password" name="pass" id="pass"><br>
+            </div>
+
+            <div class="button">
+                <input type="button" value="Login" id="submit" onclick="validate()">
+            </div>
+        </form>
+    </div>
+</div>
+<span><b class="note">Note :
+        For this demo use following <br> username and password. <br>
+        User Name : NERO<br>Password : nero_123 </b></span>
+
+<script src="scripts/login.js"></script>
 </body>
 
 </html>
