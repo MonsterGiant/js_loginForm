@@ -1,12 +1,6 @@
-{
-"users" : [
-  {"login" : "NERO",
-    "pass" : "nero_123"},
-  {"login" : "admin",
-    "pass" : "root"},
-  {"login" : "user",
-    "pass" : "1111"},
-  {"login" : "moder",
-    "pass" : "change"}
-] 
-}
+[
+  {"login" : "NERO" , "pass" : "nero_123"},
+  {"login" : "admin" , "pass" : "root"},
+  {"login" : "monster" , "pass" : "death"},
+  {"login" : "user" , "pass" : "12345"}
+]
